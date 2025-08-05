@@ -1,0 +1,31 @@
+<model-viewer src="ext-ruedas.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1.31" exposure="1.53" shadow-softness="0.68" auto-rotate>
+    <button class="Hotspot" slot="hotspot-3" data-position="1.4388107522746925m 5.580915687147235m 3.951584883376374m" data-normal="0.9779458650252998m 0.03434743445455097m 0.2060148995250308m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Etiqueta</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.9483177416978217m 2.394397036523189m 5.095926698737485m" data-normal="0.18166715507450526m 0.2189580984537953m 0.9586732477171949m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cilindro</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.09129773176318634m 2.3387290484367185m 6.0814354091042055m" data-normal="0.14256122113469333m 0.2714528207051628m 0.9518348934346733m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Boquilla</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="1.706841257828259m 1.864824187523138m 1.2659384255289012m" data-normal="0.9997495947683193m -0.011583023379284513m -0.01914631374381592m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ruedas</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-1.3145723403567098m 3.7767628179040376m 3.318038005342043m" data-normal="-0.9440975881074085m -0.061365748552513644m -0.3239042899289291m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Dispositivo de arrastre</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.7068383669603602m 5.835606130434214m 4.696333043757835m" data-normal="-0.23356142206306074m 0.4628747470856471m 0.8551000120654186m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Manguera
+        </div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-1.3492905436736506m 2.3034163982746043m 4.973864436248069m" data-normal="-0.5668178724790024m 0.19266678045547275m 0.8009975100755934m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cilindro</div>
+    </button><button class="Hotspot" slot="hotspot-14" data-position="0.0063004101779319255m 7.159404378554298m 5.062414353717406m" data-normal="-0.9956525174478699m -0.030930123400655388m -0.08786007037408639m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Palanca activadora</div>
+    </button><button class="Hotspot" slot="hotspot-15" data-position="-0.2649681646694113m 7.432911668381431m 4.776886862160017m" data-normal="-0.32855940975000464m 0.45510043732567124m 0.8276063715382521m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pasador</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
